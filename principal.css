@@ -1,0 +1,60 @@
+body {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aqua;
+    padding: 10px 0;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    align-self: center;
+    position: absolute;
+    right: 5%;
+    margin: 0 10px;
+}
+nav h1 {
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    right: 40%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    text-align: center;
+    padding: 40px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active {
+    color: #5F9EA0;
+}

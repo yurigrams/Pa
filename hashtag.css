@@ -1,0 +1,77 @@
+body {
+    font-weight: bold;
+    text-align: center;
+    background-color: gray;
+}
+
+.contato {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    display: inline-block;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.contato img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: aqua;
+    padding: 10px 0;
+
+}
+nav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    align-self: center;
+    position: absolute;
+    right: 5%;
+    margin: 0 10px;
+}
+nav h1 {
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    right: 40%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+a:active {
+    color: #5F9EA0;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+
