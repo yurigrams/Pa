@@ -8,13 +8,11 @@ header {
     background-color: aqua;
     padding: 10px 0;
 }
-
 nav {
     height: 10vh;
     display: flex;
     align-items: center;
 }
-
 nav ul {
     list-style-type: none;
     align-self: center;
