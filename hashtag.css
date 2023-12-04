@@ -1,14 +1,17 @@
 body {
     font-weight: bold;
-    text-align: center;
-    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .contato {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
-    margin: 20px;
+    margin: 80px;
     width: 300px;
     display: inline-block;
     align-items: center;
@@ -23,40 +26,24 @@ body {
     margin-bottom: 10px;
 }
 
-header {
-    background-color: aqua;
-    padding: 10px 0;
-
-}
-nav {
-    height: 10vh;
-    display: flex;
-    align-items: center;
-}
-
-nav ul {
-    list-style-type: none;
-    align-self: center;
-    position: absolute;
-    right: 5%;
-    margin: 0 10px;
-}
-nav h1 {
+header h1{
+    color: white;
     text-align: center;
+    background-color: #033d53;
+    font-weight: bold;
+    padding: 2.5rem;
     font-size: 2rem;
-    position: absolute;
-    right: 40%;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 10px 0 0;
-}
-
-nav ul li a {
+    margin: 10px
+  }
+  nav ul li a {
     text-decoration: none;
     color: #333;
-}
+    font-size: larger;
+  }
 
 a:hover{
     text-decoration: underline;
@@ -66,12 +53,12 @@ a:active {
 }
 
 footer {
-    background-color: #f2f2f2;
+    color: white;
+    background-color: #033d53;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
     padding: 10px 0;
 }
-
 

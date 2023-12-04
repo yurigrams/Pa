@@ -7,8 +7,9 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 header h1{
+    color: white;
     text-align: center;
-    background-color: #45a049;
+    background-color: #033d53;
     font-weight: bold;
     padding: 2.5rem;
     font-size: 2rem;
@@ -30,7 +31,8 @@ nav ul li {
 }
 
 footer {
-    background-color: #f2f2f2;
+    color: white;
+    background-color: #033d53;
     text-align: center;
     position: fixed;
     bottom: 0;
