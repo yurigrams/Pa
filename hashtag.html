@@ -1,54 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="hashtag.css">
-    <title>Tela de Contatos</title>
-    <script src="https://kit.fontawesome.com/a6cf24b88d.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-              <i class="fa-solid fa-house"></i>
-            <li><a href="principal.html">Home</a></li>
-            <i class="fa-solid fa-phone"></i>
-            <li><a href="hashtag.html">Contatos</a></li>
-            <i class="fa-solid fa-circle-info"></i>
-            <li><a href="sobre.html">Sobre</a></li>
-            </ul>
-            <h1>
-              Advogados Online
-            </h1>
-          </nav>
-    </header>
-    <div class="contato">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxYxegBJEyW_gXAyhCN3mAkLO6EVr4_SMEWA&usqp=CAU" alt="Mauro">
-        <h2>Mauro Wenschefelder</h2>
-        <p>Email: <a href="mailto:contato1@email.com">mauro@email.com</a></p>
-        <p>LinkedIn: <a href="link_para_perfil_linkedin_1">Perfil do Mauro </a></p>
-        <p>Telefone: (XX) XXXX-XXXX</p>
-    </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="hashtag.css">
+        <title>Tela de Contatos</title>
+        <script src="https://kit.fontawesome.com/a6cf24b88d.js"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <a href="principal.html"><i class="fa-solid fa-house"></i></a>
+                    <li><a href="principal.html">Home</a></li>
+                    <a href="hashtag.html"><i class="fa-solid fa-scroll"></i></a>
+                    <li><a href="hashtag.html">Causas</a></li>
+                    <a href="sobre.html"><i class="fa-solid fa-circle-info"></i></a>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                    <li><a href="login.html">Login/Cadastro</a></li>
+                </ul>
+                <h1>
+                    Causas
+                </h1>
+            </nav>
+        </header>
+        <div class="contato">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxYxegBJEyW_gXAyhCN3mAkLO6EVr4_SMEWA&usqp=CAU"
+                alt="Mauro">
+            <h2>Mauro Wenschefelder</h2>
+            <p>TIPO DE CASO: Atraso de voo</p>
+            <a href="link_para_dowloadPDF"style="text-decoration: none;"><i class="fa-regular fa-file-pdf" style="color: #ef0606;" ></i> Detalhes do Caso</a>
+            <p>EMAIL: mauro@email.com</p>
+            <p>TELEFONE: (XX) XXXX-XXXX</p>
+            <a href="link_para_whatsapp"><i class="fa-brands fa-whatsapp"
+                    style="color: #04ff00;"></i></a>
+            <a href="link_para_email"><i class="fa-regular fa-envelope"
+                    style="color: #ffffff;"></i></a>
+        </div>
 
-    <div class="contato">
-        <img src="data:image/jpeg;base64,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" alt="Foto do Contato 2">
-        <h2>Lurdes Origami</h2>
-        <p>Email: <a href="mailto:contato2@email.com">lurdes@email.com</a></p>
-        <p>LinkedIn: <a href="link_para_perfil_linkedin_2">Perfil da Lurdes</a></p>
-        <p>Telefone: (XX) XXXX-XXXX</p>
-    </div>
+        <div class="contato">
+            <img
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFRUYGBgYGBgYHBwZGBgYGBoYGBkaGhgZGBocIy4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTQBDAwMEA8QHBEQHz8rJCs/NDQ0MTQzMTFAPzQ0NDE0PzE2OzQ8MTE9NDE0MTExND80Pz80NDE0NDExND8/NDExNP/AABEIAOcA2gMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAAAQcGCAIDBQT/xABIEAACAQICBgUJBQQIBgMAAAABAgADEQQhBQYSMUFRBxMiYXEUFjJCUpGS0dJTgaGx8GKCweEjM1Ryk7KzwhUXQ2NzoiVktP/EABkBAQEAAwEAAAAAAAAAAAAAAAABAwQFAv/EAB8RAQACAwEAAgMAAAAAAAAAAAADFAFhkQISMRFBUf/aAAwDAQACEQMRAD8AuacRG+coCIiAkEyZBgAZMgCTAREQE43gmSBAmIiAiJBgAZM4gTlAREQE4kySYAgBJiICIkQF5M42nKAiIgIiICIiAiIgIiY7rhrRSwNHbftO9xTpg2LsN+fqqLi7cLjeSAQ9XSOkKWHQ1K1RaaD1nNhfgBzPcMzK60x0u01JXC4dqnDbqHq1PeqgFiPHZlY6c05XxlXrcQ222YVRkiA+qi+qPxNsyd8845fP5QM4xHSlj29FqKdyUyfdtM06V6TtI/aIfGkn8JhckCFZpS6TtIg3NSmw5Gkv+2xnt6N6X6oIGIw6OOLUWKt9yMWBP7wlXkyQYGyer2teFxo/oKg2wLtTbs1F7yp3jvW475781Rp1GRldGKupurKSrKRxUjMGXN0d6/8AlJGGxRAr27D5AVQBmCBkr2F7DI5kW3QiyIiIEWkxEBERAREQEREBEi8mAiIgIiICJxvOUD58ZiUpU2quQqIpdidwVRcn3Ca16z6efG4h673APZRD6lME7C+OdyeJJ4Wlo9M+mSmHp4VT2q7Fm/8AHTINvvcr9ytKYMATAM50KDObILm1zwAHMk5ATlXwzpbaGR3EEMD4FSRCurZ/XPwkEybyICTu8Y3eMGBAM50yVIZWKlSGVgbEMDcFTwYEAztpUAV2mYgZ8OW6x4zqqOCTYWBOQve0DYfUDWXy7Cq7W61DsVQMu2BkwHJhY9xuOEyma/dFmmfJ8ciMbJiB1LctvfSbx2uyP/IZsDCERIvAmIiAiIgIkEyM4AyRJiAiIgJBMmQBAASYiBr10o6Q63SNUcKQSivgq7beHadx90xGfTpPE9bWq1b36yrUe/c7sw/AzppoWIUAksQqgZksTYKBxJJAhXoaIYG6DN2dSq5XewYBQDkSGIYDjae3pHVrGCiWOFrNuYnY7QAvZiq5kgXGQOTDfaWrqJqbTwNJWZVbEsv9I+/ZvmaaHgo4n1iLngBmEI1MBgibE6y6jYTGXZk6uqf+rTsrE/ti2y/3i/IiVHrJ0fYzCXcL19IevSU3A51KebL4jaAtmRCsSndQo37RyUWuf4fgc/45TpSxz4c/lOyrULWvbIWFvz/XKBNWptZAWUblue/PPjmZ1ROf5/rPxgEqMhDqbOpDKfZZTdT4ggTaXRmMFajTrL6NSmlQeDqGH5zVebC9F2KL6Mw996dZT+5Kjqv/AKhYRlpkTlEBERASCZMi0ABJiICIiAiIgIiICfNpCrsUqjeyjt7lJn0zzdYAfJcRYXPUVbDv2GtA1dpjsjwH5TNOivRYr6QR2F0oKa3dtiyoPibaHekwtnyvyF5sJqLqamAVm22epVSmHvs7Ksm0SKYAuBd+JJ7IhWYREQhERAw/Wbo/wmLu+z1NU59ZTAFzzdfRbxyPfKl1k1GxeDuzJ1tIZ9ZTBIA5uvpJ371/amxUQNTd0iX7rL0c4TFXZF8nqm52qYGyzHi9PINnvIsTzldp0X47yhaLBOrNya6kFAoOfZNm291lta532BMKwcy8OhettYFx7GJdfelN/wA2MqvXPQPkWKegrFkCq6M1toowPpWAFwysMuXC8szoRv5JX5eUn/RpX/hCLKiIgIiICIiAiIgJx2pJMAQJiIgIicTA5ThUQMCDuIIPgZKzlA1MxFAptIfSQsn7yEqfxE2p0di1q0qdVTdaiK4Pcyhh+c1r1oo7GNxS8sTXPgGqMw/AiZp0d6/9QtLBV1LKai06dQNbYV2sFcHeoZsiNwNtwgXVOJaSTAECYiICIkGBMTiJiGvOuy4DYQU+sqVFdlG1squzshS+V7Ek7vZMCsOlnFB9JOAf6unSpnxALn/UHulk9EVDZ0ajfaVKze6o1MfgglFYrEPUd6tRtp3ZnY82Y3JtwFzumxWoFLZ0dhRzoo3xjb/3QMikEwTAEAJMRAREgwJicJzgQBJiICIiAiIgIiIGtuv6W0lih/3AfiRG/jMeC3vw75knSJnpPFf30/0qcxsmFbHai6fGMwiVD/WJ/R1BfMVFAuf3hZv3pks101C1pOBxG0xJo1AFqgZ2APZcDiVufEFhytsNSqK6hlIZWAZSDcEEXBBG8EQjtiIgIiIHW7hQSSAACSTkABvJM1t1w035Zi6mIF9g2SmDlaktwptw2rs1ubkSxelnW0IhwNE3qOP6Yj1EIuKf95xa49n+8DKdvAMZs7qtT2cFhV5YagPdTWaxEXm0OrxvhcOf+xS/yLA9G0mIgIiICIiAiIgIiICIiAiIgIkXnh6Z1pwmHVjUxFIMqlgnWIajEC4UIDck7t3GBQmueI28dimG7r6i/A2x/sniTk9RnYu+bMSzHmzG7H3kwBuyuTYAAXNzuAHEnlCo3frdM61A1+bB2oV9p8OT2SO09Ik57I4pxK7xw5TysNoxsBjMJUx9MpTZkrb7kBW9b9pW2WZc8iBvMzPXPoz2ycRo/Z7XaajcBTfPaotuF/ZOXIjdAs/AY2nWRalJ1dG3MpuD7uPdPrmr+F0hisFUZUarh6g9Jc1J5baOLN3XBmSU+lPSKixai3e1Ltf+rAfhCL8lda8dI1PDhqGFZalc3BYWanS4G53M49ncCM91jWOmtc8biVK1sQwQ70S1NSOTbFiy9zEz0dVOj3EYsqzq1ChkSzLZ2HKmh7vWOWYI2t0DEqlVnZmdizMSzMxuxZjcljxuZ12lh686KpPiMNo7A0heltKzbW96uwzBzvJCqGZj7VuFphWl9HPhqr0KqlXQ8Ra49VhzU8CMoV8RPCbKakV9vR+Eb/69JT4ogU/ipmtUuboq1mw6YNcPWr06bpUcKHdVLo56wFdo52Lsv7sIs2J103BAIIIO4g3B8DOyAiIgIiICJBMjagDJEmICIiAmOa2a1UsFTu/aqMCUpg2J4bTH1VvlficheetpPHJQpVKzmyU1Z252UXsO87gO+a16f0zUxVZ61Q5s1wMuyvqoO4D+POB9usWt2KxZPWVWCG9qaEpTtyZQe1+9eeAqgbhaSDOylRZmVEUu7kKqqCWZjkAAN57oVwVCSAASxICgAkkk2AAGZJJFhLq6PNQBhwuJxShsQc1XIrRvx5GpzO4bhxJ7uj7UJcIBXxAD4kjsjetEEZhTuLkZFuG4ZXLWDCPB1t0IMVhygyqJ26bZXDDhtEHZDC6k8L34CeD0cacZ0OErXWrSuFDMSSikqVucyVII8B3XmeSpek3RNTC4inpXDZEMoqclf0UYj2WUlG3bxxYmBZWk9EUMQoWvRp1QN22itbvUkXU94mOVejPRpN/J2HctasB7trL7p4mE6YKBA67DVUJ+zZKi+9ih/CeivSro+2fXDuNL5G0D39F6oYLDkNSw1MMNzMC7jwdyWHvnHXHToweGaoLGo3YpqdxdtzEeyvpHna28iYviOl3CDJKGIc8yKaL7y5I90x3D4ippzHIGQ08NSUNUTa2tlbnsBrDtORa4t2Q3s5hknRZq/sIcdVu1SttFWYdoozFmqHvc5+ABHpETINcdUqWPpWbs1VB6uoBmp5N7SHiPvFjMiRAAAAAAAAALAAbgBwE7IGrWltFVcNVajXTYdeG8MDuZD6ym2R8RkQQPhM2R1u1Xo4+lsVOy63NOoBdkY/5lNhdeNuBAI1/03oathazUK6bLjMEZo68HQ8VP4bjYi0K79WNJVqFQmhUdCEdgqsQjuFyDU/RfnYjhLh1P15GJbqa4VKl9lGU3SpvsD7LkKTs5/ccpQ+YORsRxHPuM7KmJdiCzsSMwSxuCDcEHgbgG/dCNromKdHmsRxuEVnN6tM9XU72UAq/7ykHlfaHCZXAREgiBG+coiAiIgIiIFcdNGkimFp0FNjXqXbmUpWc2/fNOUoZYnTXitrGUafsUNr76jsD+FNZXYy8YU3eMyDVPWUYFmqLh0q1DkHd2BRSMwgAsCc7tvtlu34+c5AECzP8AnDiP7NR+N/lB6YsR/ZaX+I/ylZmIFt6F6W9qqq4mitOm2RdGZihO4spGa87ZjvllYrD08RRZG2XpVUINiCrI43gjuNwR3GatgTNNRNenwTClV2nw7HMb2pk72pjlzTjvGdwxGP6yaGfB4h8O+eybo3t02vsP42FjyIYcJ5QEvTpB0EmkMGuJwxWpUpqXpshv1lM5ug5nK4HtLbK5lGbWWW7nz/lCuVNCxCICzMQqgb2ZjZVA5kkACbGaj6ujA4ZKZsajduqwzvUIGQPsqLKO4X4mV/0QasbbnHVV7KErRB9Z81ep4Lmo7y3sifV0g9InpYbBPzWpWU7uBSkRx4Fxu3LnmCPY1y6R0wr9TQRa1RT27sQifs3G977xw455TGv+cWI/stL/ABH+UrS95FoVZp6YMR/ZaXxv8p4us+vhx1Lqq2EpXGaurvtIx4qbZjmDkfcZhpkQJBgCAJN7/wAIGfdDmkymNaiTZa9MgD9ul21t+4asvOazanYnqsfhW5V0Q+FQ9WfwczZmEIiICIiAkXgmAIExEQNf+leqDpOp+xTpJ4djb/3zDJlXScf/AJTFeNL/APPSnlaPw67AcrtFi/qhrBNkbKqTbaJa9zuAMK8oSWP6/jPQ0nQUBXUBbm1gLAi2RsCQCLEG2RyPGedASQOcASCYEtOdOizEWBz42NrXsTfkJFJCx2R/Id5ndVq2UIvKxIJN+duQveBkGp2uVXAPs+nQZu3Tvx4vTO5W/BuPAj19M6pLisXTrYNgcJiizu4yXDle1XDA+ibXIU+sSMgJX8+mjjqiI9JKjqlS22gYhX2d20OP8dxgZzrjruvVjA4DsYZFFMupINRVFtlDvCc23tnw9KvTE+7RlBWLFgDs7AAN9m7sF2mtvA32gfDOW1l3/rKerjKCsjME2CufohG9XJgptYhhbcQRbjPIgJIEASCYEt+H5SUQncCcwMgTmdwkLfhPp2tgFcix5G4XLluJzMBhn6uojG10dHuDe2ywax5HL7ptTNSqpyJ7jNtBCJiJECYnG85QIAkxEBERAoDpYwpTSVRvtEpVPu2Orv76ZmJUMUyAgWKk3KsoZb87HjLh6YtAtUopi6Yu1DaDgcaLZlu/ZIv4Mx4SmCIVzrVmc3Y3/ADIDIDIZAe6cLW3/r+UARtc4EEwBAEm/KB31KiqCqZg72tmb8PD+fOdAMmQBAbP65yCZO1+vlIgAJ2UazIbqeFjkCCDvBByInC9v1+Ub/H84HbVxTMLEgD2VAVee4d9vdOoLx4frKAI2vdygQTAESd3j+UDvV1Vcs3Nwbj0c+Hf7+N+U6Nrj+jG+AIH0YLC9ZUp0x/1HRPvdwoH4zaqUT0TaBavihiGU9VhyTfg1UjsL37IO2eRCc5e0IREQItJiICIiAiIgcSL5GVdrT0VK7GrgmWmTcmi9xTufYYAlBv7NiOA2RLTiBrRpLVHHUSeswlW3NE61fHap7QA8bTxKqlDZwUPJgVPuabYkyGUHeLwNTDWX2h7xI61faHvE2uODpnfTQ+Kr8px8gpfZU/gX5QNVRUXftD3iDVU+svvH4TavyGl9mnwL8o8hpfZp8C/KBqmKq+0PeI65R6y+8TazyGl9mnwL8o8hpfZp8C/KBql1q+0vvEkVF37Qt4ibWeQ0vs0+BflHkNL7NPgX5QNVTWU+sL+I/V5w61faHvE2t8hpfZp8C/KR5BS+yp/Avygaqmqo9YX8Rl/OEcE2BBJ4A3PuE2rGCpjdTT4V+U7VQDcAPAAQNY8Dq/iqxtTw1d78ercL8bAKPvMzbQHRTXqFWxjiigsdhGD1WHEFh2U4Zgt4CXVED4dF6OpYemlGigREFlUe8kk5kk3JJzJNzPuiICIiAiJF4EXi8qvz+xfKl8DfXHn9i+VH4G+ubNSRp3ot8WrEq6jrxjX2tlKR2VLGyNko3n051ef+L5Ufgb64qSaL0W+LWkXlVef+L5Ufgb65Pn9i+VL4G+uKkhei3xaYE5SqvP/ABfKl8DfXHn/AIvlS+BvripKl6LfFqxKq8/8XypfA31x5/4vlS+BvripKt6LfFqXi8qvz+xfKl8DfXHn9i+VH4G+uKkiXot8WrEqrz/xfKl8DfXHn/i+VL4G+uKkq3ot8WrEqrz/AMXypfA31wdfsXypfA31xUlL0W+LT3zlKp8/8Xyo/A31yfP/ABfKl8DfXFSRL0W+LViVV5/4vlS+Bvrjz/xfKl8DfXFSVb0W+LUi8qxdfcWcgtInkEcn/POQ14xvsJvt/VvvGVvS5xUk0XYt8WlEq7z3x3sJ/hVO79rvHvnHz8xnsU893YfPjl2uRHvip711bse+LTiVY2veMG9KYyB/q33HcfS3d8jz9xfs0t1/Qbde1/T3XyipJouxb4tI5ybSq/P7F8qXwN9cef8Ai+VL4G+uKkqXot8Y/h8fsU9jq6bdsNdluTbgeYsWH7xtad40oAbihR9fein0mvytluGWQ3WiJ08+cOT595caWlbLYUqdgQRdc7bKAg+0Dsgm+8kyf+KLfaNClkxawRQNwUi1tw3gbrm9jaIk+GE+fpNXSoZCvUURcEEhADktiQbXFjmPAb55sRPWMYx9HrOc/ZERK8kREBERAREQEREBERAREQOzD12Qh0NiNxsDvFtx7iZ9FPSlVcw9jcm+yt7khjw3XVcu626TEZ84yY9+sJXStUEttZm1zspwCjlyVR904VdJVG2dp77IIHZUWBCg7hyVfdESfDyyfn1/ShpSqgsj2B2fVUnIKFzIvkFX3Tu/41X9sZi3oJuzy9HvMRHw8mM+sft14nSdV02WIsSSbKoJuQc7cio3T4oiMYxhj9+s5y//2Q=="
+                alt="Foto do Contato 2">
+            <h2>Lurdes Origami</h2>
+            <p>TIPO DE CASO: Briga de vizinhos</p>
+            <p>EMAIL: lurdes@email.com</p>
+            <p>Telefone: (XX) XXXX-XXXX</p>
+            <a href="link_para_whatsapp"><i class="fa-brands fa-whatsapp"
+                    style="color: #04ff00;"></i></a>
+            <a href="link_para_email"><i class="fa-regular fa-envelope"
+                    style="color: #ffffff;"></i></a>
+        </div>
 
-    <div class="contato">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxYxegBJEyW_gXAyhCN3mAkLO6EVr4_SMEWA&usqp=CAU" alt="Foto do Contato 3">
-        <h2>José Barani</h2>
-        <p>Email: <a href="mailto:contato3@email.com">jose@email.com</a></p>
-        <p>LinkedIn: <a href="link_para_perfil_linkedin_3">Perfil do José</a></p>
-        <p>Telefone: (XX) XXXX-XXXX</p>
-    </div>
+        <div class="contato">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxYxegBJEyW_gXAyhCN3mAkLO6EVr4_SMEWA&usqp=CAU"
+                alt="Foto do Contato 3">
+            <h2>José Barani</h2>
+            <p>TIPO DE CASO: Cobrança de divida</p>
+            <p>EMAIL:jose@email.com</p>
+            <p>Telefone: (XX) XXXX-XXXX</p>
+            <a href="link_para_whatsapp"><i class="fa-brands fa-whatsapp"
+                    style="color: #04ff00;"></i></a>
+            <a href="link_para_email"><i class="fa-regular fa-envelope"
+                    style="color: #ffffff;"></i></a>
+        </div>
 
-    <footer>
-        <p>Rodapé do site</p>
-    </footer>
-</body>
+        <footer>
+            <p>Rodapé do site</p>
+        </footer>
+    </body>
 </html>
