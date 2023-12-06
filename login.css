@@ -35,6 +35,7 @@ img{
     text-align: left;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 
   label {
@@ -47,7 +48,7 @@ img{
   input[type="email"],
   input[type="password"] {
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -58,11 +59,12 @@ img{
     background-color: #033d53;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 0;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    width: 50%;
   }
 
   button:hover {
@@ -79,31 +81,19 @@ img{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  #Cadastro{
+  .Cadastro{
     background-color: #033d53;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 0;
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease;
     text-decoration: none;
-    display: flex;
-    margin: 10px;
-  }
-  #Cadastro1{
-    background-color: #033d53;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    text-decoration: none;
-    display: flex;
-    margin: 10px;
+    width: 50%;
+    text-align: center;
+    display: block;
   }
   #Cadastro:hover{
     background-color: #00688B;
@@ -119,4 +109,34 @@ footer {
   padding: 10px;
   position: auto;
   bottom: 0;
+}
+.form-butom{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-butom > ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+}
+.form-butom > ul> li{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.form-butom > ul> li>a{
+  margin: 0;
+  text-align: center;
+}
+form{
+  width: 50%;
 }
