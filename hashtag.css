@@ -15,7 +15,7 @@ body {
     display: inline-block;
     align-items: center;
     background-color: #00688B;
-    margin-top: -10px;   
+    margin-top: -10px;
 }
 
 .contato img {
@@ -27,7 +27,7 @@ body {
     align-items: center
 }
 
-header h1{
+header h1 {
     color: white;
     text-align: center;
     background-color: #033d53;
@@ -39,14 +39,15 @@ header h1{
 nav ul li {
     display: inline;
     margin: 10px
-  }
-  nav ul li a {
+}
+
+nav ul li a {
     text-decoration: none;
     color: #333;
     font-size: larger;
-  }
+}
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
@@ -59,8 +60,7 @@ footer {
     width: 100%;
     padding: 10px 0;
 }
-a{
+
+a {
     color: #333;
 }
-
-
