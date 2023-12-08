@@ -96,7 +96,14 @@ a:active {
   text-align: center;
   justify-content: center;
 }
-
+.Funcionamento h3{
+    font-family: 'Roboto';
+    font-size: 50px;
+}
 .Funcionamento ul {
-  text-decoration: none;
+    font-family: 'Roboto';
+    text-decoration: none;
+    list-style: none;
+    font-size: 40px;
+    text-align: justify;
 }
