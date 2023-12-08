@@ -60,4 +60,15 @@ footer {
     padding: 10px;
     position: auto;
     bottom: 0;
+    padding: 10px 0;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+img{
+    width: 500px;
 }
