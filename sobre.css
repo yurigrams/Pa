@@ -54,5 +54,7 @@ footer {
     padding: 20px;
     border-radius: 10px;
     display: flex;
-
+}
+img{
+    width: 500px;
 }
