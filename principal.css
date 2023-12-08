@@ -6,7 +6,8 @@ body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-header h1{
+
+header h1 {
     color: white;
     text-align: center;
     background-color: #033d53;
@@ -18,12 +19,21 @@ header h1{
 nav ul li {
     display: inline;
     margin: 10px
-  }
-  nav ul li a {
+}
+
+nav ul li a {
     text-decoration: none;
     color: #333;
     font-size: larger;
-  }
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: #333;
+}
 
 .content {
     text-align: center;
@@ -39,9 +49,11 @@ footer {
     width: 100%;
     padding: 10px 0;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
+
 a:active {
     color: #5F9EA0;
 }

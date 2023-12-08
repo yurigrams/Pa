@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin: 0;
+    margin: 50px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -51,16 +51,15 @@ a:hover {
     text-decoration: underline;
 }
 
+a {
+    color: #333;
+}
 footer {
     color: white;
     background-color: #033d53;
     text-align: center;
-    position: fixed;
     bottom: 0;
     width: 100%;
     padding: 10px 0;
 }
 
-a {
-    color: #333;
-}

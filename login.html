@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Login</title>
-    <link rel="stylesheet" href="login.css">
-    <script src="https://kit.fontawesome.com/a6cf24b88d.js" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela de Login</title>
+        <link rel="stylesheet" href="login.css">
+        <script src="https://kit.fontawesome.com/a6cf24b88d.js"
+            crossorigin="anonymous"></script>
+    </head>
 
-<body>
-    <header>
-        <nav>
-            <ul>
-              <i class="fa-solid fa-house"></i>
-              <li><a href="principal.html">Home</a></li>
-              <i class="fa-solid fa-phone"></i>
-              <li><a href="hashtag.html">Contatos</a></li>
-              <i class="fa-solid fa-circle-info"></i>
-              <li><a href="sobre.html">Sobre</a></li>
-            </ul>
-            <h1>
-              Advogados Online
-            </h1>
-          </nav>
-    </header>
-
-    <div class="container">
-        <h2>Faça seu login:</h2>
-
-        <form>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
-            </div>
-
-            <div class="form-butom">
-                <button type="submit">Login</button>
-
+    <body>
+        <header>
+            <nav>
                 <ul>
-                    <li><a class = 'Cadastro' href="cadastroCliente.html">Cadastrar Usuário</a></li>
-                    <li><a class = 'Cadastro' href="cadastroAdvogado.html">Cadastrar Profissional</a></li>
+                    <a href="principal.html"><i class="fa-solid fa-house"></i></a>
+                    <li><a href="principal.html">Home</a></li>
+                    <a href="hashtag.html"><i class="fa-solid fa-scroll"></i></a>
+                    <li><a href="login.html">Causas</a></li>
+                    <a href="sobre.html"><i class="fa-solid fa-circle-info"></i></a>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                    <li><a href="login.html">Login/Cadastro</a></li>
                 </ul>
-            </div>
-        </form>
-    </div>
-    <footer>
-        <p>Rodapé do site</p>
-      </footer>
-</body>
+                <h1>
+                    Advogados Online
+                </h1>
+            </nav>
+        </header>
+
+        <div class="container">
+            <h2>Faça seu login:</h2>
+
+            <form>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+
+                <div class="form-butom">
+                    <ul>
+                        <li><a class='Cadastro' href="principalLogado.html">Login</a></li>
+                        <li><a class='Cadastro' href="cadastroCliente.html">Cadastrar
+                                Usuário</a></li>
+                        <li><a class='Cadastro' href="cadastroAdvogado.html">Cadastrar
+                                Profissional</a></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p>Rodapé do site</p>
+        </footer>
+    </body>
 
 </html>
