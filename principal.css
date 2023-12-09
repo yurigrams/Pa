@@ -13,6 +13,10 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
+  background-color: #58a2bb;
+  margin: 30px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 4);
 }
 
 header h1 {
@@ -27,7 +31,8 @@ header h1 {
 
 .container h2 {
   font-family: 'Roboto';
-  font-size: 65px;
+  font-size: 50px;
+
 }
 
 #Sobre {

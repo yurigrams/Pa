@@ -67,3 +67,7 @@ footer {
 .container p {
     white-space: pre-line;
 }
+img{
+    width: 750px;
+    margin-left: 50px;
+}

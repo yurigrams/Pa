@@ -8,11 +8,14 @@ body {
 }
 
 .container {
-  padding: 100px;
+  padding: 50px;
   text-align: center;
   width: 100%;
   align-items: center;
   justify-content: center;
+  background-color: #58a2bb;
+  border-radius: 1rem;
+  margin: 10px;
 }
 
 .form-group {
