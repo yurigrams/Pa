@@ -39,14 +39,6 @@ a {
     display: flex;
 }
 
-.container {
-    padding: 100px;
-    text-align: center;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
 .content {
     text-align: center;
     padding: 40px;
@@ -67,8 +59,11 @@ footer {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    display: flex;
+    background-color: #58a2bb;
+    margin: 10px;
+    margin-left: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 4);
 }
-img{
-    width: 500px;
+.container p {
+    white-space: pre-line;
 }
