@@ -5,55 +5,105 @@ body {
     height: 100%;
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-header h1 {
+  }
+  
+  .container {
+    padding: 100px;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header h1 {
     color: white;
     text-align: center;
     background-color: #033d53;
     font-weight: bold;
     padding: 2.5rem;
     font-size: 2rem;
-}
-
-nav ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container h2 {
+    font-family: 'Roboto';
+    font-size: 65px;
+  }
+  
+  #Sobre {
+    background-color: #033d53;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  #Sobre:hover {
+    background-color: #00688B;
+  }
+  
+  nav ul li {
     display: inline;
     margin: 10px
-}
-
-nav ul li a {
+  }
+  
+  nav ul li a {
     text-decoration: none;
     color: #333;
     font-size: larger;
-}
-
-a:hover {
+  }
+  
+  a:hover {
     text-decoration: underline;
-}
-
-a {
+  }
+  
+  a {
     color: #333;
-}
-
-.content {
+  }
+  
+  .content {
     text-align: center;
     padding: 40px;
-}
-
-footer {
+  }
+  
+  #home {
+    display: flex;
+  }
+  
+  footer {
     color: white;
     background-color: #033d53;
     text-align: center;
-    position: fixed;
-    bottom: 0;
     width: 100%;
-    padding: 10px 0;
-}
-
-a:hover {
+    padding: 10px;
+    position: auto;
+    bottom: 0;
+  }
+  
+  a:hover {
     text-decoration: underline;
-}
-
-a:active {
+  }
+  
+  a:active {
     color: #5F9EA0;
-}
+  }
+  
+  .Funcionamento {
+    text-align: center;
+    justify-content: center;
+  }
+  .Funcionamento h3{
+      font-family: 'Roboto';
+      font-size: 50px;
+  }
+  .Funcionamento ul {
+      font-family: 'Roboto';
+      text-decoration: none;
+      list-style: none;
+      font-size: 30px;
+      text-align: justify;
+  }
